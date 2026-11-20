@@ -1,0 +1,23 @@
+# Ignore SQLite database
+*.db
+
+# Ignore raw data (large CSVs - keep these out of version control)
+data/raw/*
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+.build/
+
+# Ignore Jupyter notebook outputs
+*.ipynb_checkpoints/
+
+# Ignore Excel generated files
+*.xlsx.user
+
+# Local configuration
+.env
